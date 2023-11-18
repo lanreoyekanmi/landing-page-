@@ -1,0 +1,60 @@
+#header{
+  background-color: #1f2937;
+}
+
+/*--=====hero section=====-- */
+div.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    flex: wrap; 
+  }
+
+.hero-container img{   
+    margin-right: auto;
+    width: 85px;
+    padding: 5px;
+    height: 85px;
+}
+
+/*--===== End hero section=====-- */
+
+/*--=====Navigation Section=====--*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: inline-flex;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background: rgb(68, 68, 68)474;
+  }
+/*--===== End Navigation Section=====--*/
+
+/*--=====Hero main text  Section=====--*/
+  .hero-main-text{
+    color: #f9faf8;
+    margin-left: 40px;
+    padding: 12px;
+  }
+  h1{
+    font-size: 48px;
+    font-weight:bold;
+  }
