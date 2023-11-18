@@ -4,7 +4,6 @@
 
 /*--=====hero section=====-- */
 div.hero-container {
-    background-color: #1f2937;
     display: flex;
     flex: wrap; 
   }
@@ -53,8 +52,20 @@ nav {
     color: #f9faf8;
     margin-left: 40px;
     padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
   }
+
   h1{
     font-size: 48px;
     font-weight:bold;
+  }
+  img{
+    object-fit: cover;
+    display: end;
+    height: 200px;
+    width: 200px;
+    margin: 5px 40px 0px 20px
   }
