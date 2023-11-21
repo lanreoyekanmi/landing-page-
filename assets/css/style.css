@@ -4,12 +4,11 @@
 
 /*--=====hero section=====-- */
 div.hero-container {
-    display: flex;
+    display: flex-end;
     flex: wrap; 
   }
-
-.hero-container img{   
-    margin-right: auto;
+  .hero-logo{   
+    margin-left: 8px;
     width: 85px;
     padding: 5px;
     height: 85px;
@@ -19,7 +18,7 @@ div.hero-container {
 
 /*--=====Navigation Section=====--*/
 nav {
-    display: flex;
+    display:flex;
     justify-content: flex-end;
     flex-wrap: wrap;
   }
@@ -28,7 +27,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 20px;
-    display: inline-flex;
+    display:flex-end;
   }
   
   nav li {
@@ -52,20 +51,17 @@ nav {
     color: #f9faf8;
     margin-left: 40px;
     padding: 12px;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-
   }
 
   h1{
     font-size: 48px;
     font-weight:bold;
   }
-  img{
-    object-fit: cover;
-    display: end;
-    height: 200px;
-    width: 200px;
-    margin: 5px 40px 0px 20px
+
+  div.hero-profile-image{
+    margin-left:74%;
+    overflow:clip;
+    overflow: x 15px;
   }
